@@ -1,0 +1,106 @@
+#cajamayor {
+	text-align: center;
+}
+#headercaja{
+	text-align: center;
+	
+}
+ul {
+	list-style: none;
+}
+.secciones{
+
+}
+ul li{
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	padding:  0 5px 0 5px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+.deco{
+	border-right: 1px solid black;
+}
+#headercaja{
+	width: 100%;
+}
+#parrafo{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+/*aqui empieza hr */
+.hrparra{
+	width: 20%;
+	border:1px solid gray;
+}
+/*aqui empieza h2 */
+#galeria h2{
+	position: relative;
+	left: -260px;
+}
+/*aqui empieza #galeria hr */
+#galeria hr {
+	width: 10%; 
+	border:1px solid gray;
+	left: -260px;
+	position: relative;
+}
+/*aqui empieza #seccione hr */
+#secciones hr{
+	width: 704px;
+	border: 1px solid black;
+}
+#container{
+	width: 100%;
+	
+}
+.cajaimagen{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+}
+.image{
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	display: inline-block;
+
+}
+.texto{
+	z-index: 2;
+	position: absolute;
+	color: #46F9E2;
+	font-size: 14px;
+	left: 100px;
+	top: 160px;
+}
+#imglink {
+	z-index: 2;
+	position: relative;
+	color: #46F9E2;
+	font-size: 14px;
+	}
+#mona{
+    -webkit-animation: example 4s infinite; 
+    animation: example 4s infinite;
+	position: fixed;
+	right: 0;
+	top: 30%;
+	z-index:3;
+}
+
+@-webkit-keyframes example {
+    from {right: 0;}
+    to {right: 100%;}
+
+@keyframes example {
+    from {right: 0;}
+    to {right: 100%;}
